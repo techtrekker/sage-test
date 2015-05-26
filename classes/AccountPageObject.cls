@@ -22,6 +22,7 @@ public class AccountPageObject extends cinnamon.PageObject {
       }
       saveBtn.click();
       selenium.waitForPageToLoad('3000');
+      System.debug('Waiting');
       return this;
     }
  
