@@ -1,0 +1,2 @@
+SUCCESS = Build result so far. This doesn't pay attention to all post-build actions
+16 sec  = Says how long the build took to run. This doesn't include time which is spent to post-build actions.
