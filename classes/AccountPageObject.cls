@@ -14,6 +14,7 @@ public class AccountPageObject extends cinnamon.PageObject {
       editBtn = getElement(new cinnamon.ElementLocator('input[name="edit"]'));
       accountNameInputField = getElement(new cinnamon.ElementLocator('#acc2'));
       siteInputField = getElement(new cinnamon.ElementLocator('#acc23'));
+      System.debug('Completed initializePageObject');
     }
  
     public AccountPageObject clickSave() {
