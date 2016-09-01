@@ -27,7 +27,7 @@ public class atMentionAutomation implements Process.plugin{
  		
  		//String to use to format the @mentions like: {ID}{ID}
  		String atMentionString = '';
-
+		atMentionString = '';
 
  		//Go through the list of Ids and format them like: {ID}{ID}
  		for (String atId : atMentionIds ){
